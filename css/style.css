@@ -1,6 +1,6 @@
 *{
     margin: 5px;
-    padding: 0px;
+    padding: 5px;
 }
 
 .titulo{
@@ -16,7 +16,7 @@ color: red;
 }
 
 .noticia__parrafo {
-        background: blue;
+        background: goldenrod;
         text-align: center;
         border: black 5px solid;
         grid-column-start: 1; 
@@ -47,27 +47,31 @@ color: red;
 }
 
 .titulo{
-    color:red;
+    color:orange;
     background-color: grey;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .subtitulo{
 
-    color:red;
+    color:orange;
     background-color: grey;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 body{
-    background-image:url(../images/OIP.jpg);
+    background-image:url(../images/oioioioi.jpg);
 }
 
-.inicio {
-    display: flex;
-    flex-wrap: wrap;
+ul li {
+    color: bisque;
+    display: inline-block;
+    position: sticky;
+    background-color: orange;
  }
+
+ 
  
  
  
@@ -88,6 +92,7 @@ body{
     background-color : red;  
   }
 }
+
   
 
 
